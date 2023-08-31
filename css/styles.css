@@ -1,6 +1,7 @@
+
+
 body {
-    background-image: linear-gradient( rgba(255, 255, 255, 0.406), rgba(179, 19, 19, 0.79),green ,blue  );
-    box-sizing: border-box; 
+    background-image: linear-gradient( rgba(255, 255, 255, 0.406), rgba(179, 19, 19, 0.79),green ,blue  ); 
 }
 
 /*---------------------------===============================--- header --------=================----------------*/
@@ -311,104 +312,7 @@ h4{
     
 }
 
-.slide , .slide1 ,.slide2 ,.slide3 {
-    width: 70%;
-    position: absolute;
-    
 
-}
-.slide img ,.slide1 img ,.slide2 img,.slide3 img{
-    width: 388px;
-    height: 300px;
-    border-radius: 25%;
-    animation: zoom-out 4s linear infinite;
-    box-shadow: 0 2px 12px 0 rgba(12, 148, 222, 0.952) ;
-}
-@keyframes zoom-out{
-    70%{
-        width: 45%;
-    }
-}
-.slide{
-    animation: slode 10s linear infinite;
-}
-.slide1{
-    animation: slode1 10s linear infinite;
-}
-.slide2{
-    animation: slode2 10s linear infinite;
-}
-.slide3{
-    animation: slode3 10s linear infinite;
-}
-@keyframes slode {
-    0%{
-        visibility: visible;
-    }
-    25%{
-        visibility: hidden;
-    }
-    50%{
-        visibility: hidden;
-    }
-    75%{
-        visibility: hidden;
-    }
-    100%{
-        visibility: visible;
-    }
-}
-@keyframes slode1 {
-    0%{
-        visibility: hidden;
-    }
-    25%{
-        visibility: hidden;
-    }
-    50%{
-        visibility: visible;
-    }
-    75%{
-        visibility: hidden;
-    }
-    100%{
-        visibility: hidden;
-    }
-}
-@keyframes slode2 {
-    0%{
-        visibility: hidden;
-    }
-    25%{
-        visibility: hidden;
-    }
-    50%{
-        visibility: hidden;
-    }
-    75%{
-        visibility: visible;
-    }
-    100%{
-        visibility: hidden;
-    }
-}
-@keyframes slode3 {
-    0%{
-        visibility: hidden;
-    }
-    25%{
-        visibility: hidden;
-    }
-    50%{
-        visibility: hidden;
-    }
-    75%{
-        visibility: hidden;
-    }
-    100%{
-        visibility: visible;
-    }
-}
 .backtotop p {
     text-align: center;
 
