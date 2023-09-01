@@ -1,5 +1,5 @@
 body{
-    background-image:radial-gradient(  rgba(151, 48, 48, 0.491),rgba(30, 132, 30, 0.662) ,rgb(29, 123, 163)  );
+    background-image:linear-gradient( rgba(255, 255, 255, 0.406) ,rgb(76, 76, 161)  ); 
 }
 .logo{
    
