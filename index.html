@@ -35,6 +35,12 @@
                     <li>
                         <a href="order.html">ORDER</a>
                     </li>
+                    <li>
+                        <div class="iconCart">
+                            <img src="/assets/icons/icon.png">
+                            <div class="totalQuantity">0</div>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -74,35 +80,56 @@
 
             <h2 class="menu-text"> OUR MENU </h2>
 
-            <section class="menu-box">
+            <div class="listProduct">
 
-                <div class="food">
-                    <h4>FOOD</h4>
-                    <a href="food.html"> <img src="/assets/Roast-potatoes.jpg"> </a>
+                <div class="item">
+                    <img src="/assets/Roast-potatoes.jpg" alt="">
+                    <h2>Roasted Potato</h2>
+                    <div class="price">$10</div>
+                    <button>Add To Cart</button>
                 </div>
 
-                <div class="drinks">
-                    <h4>DRINKS</h4>
-                    <a href="drinks.html"><img src="/assets/cans-popular-soft-drink.jpg" alt=""></a>
+            </div>
+
+            <div class="cart">
+                <h2>
+                    CART
+                </h2>
+
+                <div class="listCart">
+
+
+                    <div class="item">
+                        <img src="assets/food.jpg">
+                        <div class="content">
+                            <div class="name">Food</div>
+                            <div class="price">$10 / 1 product</div>
+                        </div>
+                        <div class="quantity">
+                            <button>-</button>
+                            <span class="value">3</span>
+                            <button>+</button>
+                        </div>
+                    </div>
+
+
                 </div>
 
-                <div class="snacks">
-                    <h4>SNACKS</h4>
-                    <a href="snacks.html"><img src="/assets/snacks-on-table.jpg" alt=""> </a>
+                <div class="buttons">
+                    <div class="close">
+                        CLOSE
+                    </div>
+                    <div class="checkout">
+                        <a href="/html/checkout.html">CHECKOUT</a>
+                    </div>
                 </div>
-
-                <div class="sanitations">
-                    <h4>SANITATION</h4>
-                    <a href="sanitation.html"> <img src="/assets/hero sanitation.jpg" alt=""> </a>
-                </div>
-
-            </section>
+            </div>
 
         </section>
         <div class="cta">
-            <a href="/html/order.html">
+            <a href="/html/checkout.html">
                 <h2 class="call-to-action">
-                    MAKE YOUR ORDER
+                    CHECKOUT
                 </h2>
             </a>
         </div>
@@ -156,5 +183,6 @@
     </footer>
     <!------------------------------------------------End of footer-------------------------------------------------------------------->
 </body>
+<script src="js/app.js"></script>
 
 </html>

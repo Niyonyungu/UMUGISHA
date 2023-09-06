@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "snack",
+        "price": 10,
+        "image": "assets/snack.jpg"
+    },
+    {
+        "id": 2,
+        "name": "food",
+        "price": 20,
+        "image": "assets/foodd.jpEg"
+    },
+    {
+        "id": 3,
+        "name": "drink",
+        "price": 15,
+        "image": "assets/Drink.JPG"
+    }
+    ,
+    {
+        "id": 4,
+        "name": "Lotion",
+        "price": 20,
+        "image": "assets/Body-Lotion.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "Chips",
+        "price": 120,
+        "image": "assets/chips.jpg"
+    },
+    {
+        "id": 6,
+        "name": "potato",
+        "price": 10,
+        "image": "assets/Roast-potatoes.jpg"
+    }
+]
