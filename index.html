@@ -3,13 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="MG vainqueur">
     <meta name="description" content="The official website for Umugisha Mini-Supermarket">
     <title>Umugisha Mini-Supermarket</title>
     <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/all.css">
 </head>
 
 <body>
@@ -37,7 +35,7 @@
                     </li>
                     <li>
                         <div class="iconCart">
-                            <img src="/assets/icons/icon.png">
+                            <img title="image" src="/assets/icons/icon.png">
                             <div class="totalQuantity">0</div>
                         </div>
                     </li>
@@ -65,8 +63,6 @@
                     We have over 5000+ reviews and our customers trust our products and delivery service every time.
                 </P>
                 <ul>
-                    <!--to do 
-                        put ticked box icons before lists         -->
                     <li>We always deliver on time.</li>
                     <li>100% guaranted products.</li>
                     <li>We give you guide on how to use our products.</li>
@@ -77,18 +73,14 @@
         </section>
 
         <section class="menu">
-
             <h2 class="menu-text"> OUR MENU </h2>
-
             <div class="listProduct">
-
                 <div class="item">
                     <img src="/assets/Roast-potatoes.jpg" alt="">
                     <h2>Roasted Potato</h2>
                     <div class="price">$10</div>
-                    <button>Add To Cart</button>
+                    <button type="button">Add To Cart</button>
                 </div>
-
             </div>
 
             <div class="cart">
@@ -98,20 +90,18 @@
 
                 <div class="listCart">
 
-
                     <div class="item">
-                        <img src="assets/food.jpg">
+                        <img title="image" src="assets/food.jpg">
                         <div class="content">
                             <div class="name">Food</div>
                             <div class="price">$10 / 1 product</div>
                         </div>
                         <div class="quantity">
-                            <button>-</button>
+                            <button type="button">-</button>
                             <span class="value">3</span>
-                            <button>+</button>
+                            <button type="button">+</button>
                         </div>
                     </div>
-
 
                 </div>
 
@@ -146,38 +136,24 @@
                 <p>Kigali city tower <br>
                     Room 45</p>
 
-                <iframe
+                <iframe class="frame"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2810.967077410984!2d30.058080255454865!3d-1.9438443006080166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca4223449e947%3A0x886c287774e11fe5!2sKigali%20City%20Tower%2C%20KN%202%20St%2C%20Kigali!5e0!3m2!1sen!2srw!4v1663944251495!5m2!1sen!2srw"
-                    width="450" height="180" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    allowfullscreen="" title="map" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
             <div class="photo-slide">
                 <div class="hours">
                     <h2>Working hours</h2>
                     <span></span>
-                    <br> <br>
-                    <ul>
-                        <li>Monday-friday</li>
-                        <ul>
-                            <li>07:00AM-08:00PM</li>
-                        </ul>
-                        <br> <br>
-                        <li>Saturday</li>
-                        <ul>
-                            <li>10:00AM-08:00PM</li>
-                        </ul>
-                    </ul>
+
                 </div>
-
             </div>
-
         </section>
         <div class="backtotop">
             <p><a href="#head">back to top</a></p>
         </div>
         <div class="copy">
-            <p>Designed by vainqueur 2023 Copyright&copy; All rights reserved.</p>
+            <p>Designed by vainqueur <span id="currentYear"></span> Copyright&copy; All rights reserved.</p>
         </div>
 
     </footer>

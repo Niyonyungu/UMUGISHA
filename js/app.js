@@ -137,3 +137,8 @@ function changeQuantity($idProduct, $type) {
   // reload html view cart
   addCartToHTML();
 }
+
+// =========== Getting the year dynamically ============================================================
+
+var currentYear = new Date().getFullYear();
+document.getElementById("currentYear").innerHTML = currentYear;

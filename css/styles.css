@@ -292,7 +292,7 @@ svg{
     padding: 20px;
 }
 .checkoutLayout .right{
-    background-color: rgb(243,243,249)
+    background-color: rgb(243,243,249);
     border-radius: 20px;
     padding: 40px;
     color: #fff;
@@ -375,6 +375,11 @@ svg{
     font-weight: bold;
 }
 
+.frame{
+    width: 450px;
+    height: 180px;
+    border: 0;
+}
 
 .call-to-action {
     color: antiquewhite;
